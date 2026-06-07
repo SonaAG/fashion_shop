@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-enola-bg: #EFEAE4;
+  --color-enola-bg-dark: #DCD6CE;
+  --color-enola-charcoal: #231F1C;
+  --color-enola-muted: #787068;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #EFEAE4;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-enola-charcoal);
+  background-color: var(--color-enola-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+

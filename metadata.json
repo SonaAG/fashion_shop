@@ -1,0 +1,6 @@
+{
+  "name": "Man Mandir Bridal Studio",
+  "description": "An elegant luxury bridal boutique & bridesmaid atelier booking system for Man Mandir Bridal Studio. Includes custom design previews, custom fittings scheduler, and premium capsule selections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
